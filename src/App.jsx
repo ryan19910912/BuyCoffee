@@ -193,7 +193,7 @@ export default function Home() {
                                     height={'30'}
                                     marginRight={'10px'}
                                   />
-                                  <Text fontWeight={'bold'} marginRight={'10px'}>
+                                  <Text fontWeight={'bold'} marginRight={'10px'} color={'blue.300'}>
                                     {coffee[2] ? coffee[2] : 'Anonymous'}
                                   </Text>
                                   <Tooltip
@@ -205,7 +205,7 @@ export default function Home() {
                                   </Tooltip>
                                 </Flex>
                                 <Flex>
-                                  <Text>
+                                  <Text color={'gray.400'}>
                                     {coffee[1] ? coffee[1] : 'No Message ...'}
                                   </Text>
                                 </Flex>
